@@ -107,7 +107,7 @@ if (localStorage.getItem("producto") !== null) {
 if (items.length > 0) {
     car.style.display = "block"
     car.innerHTML = items.length
-
+    console.log(items)
 } else {
     car.style.display = "none"
 }
